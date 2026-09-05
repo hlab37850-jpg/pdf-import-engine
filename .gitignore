@@ -1,15 +1,33 @@
-venv/
+# Python
 __pycache__/
-*.pyc
-*.pyo
-.env
-.venv
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
 *.egg-info/
 dist/
 build/
-.DS_Store
-*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv
+
+# Project specific
 output/
 input_files/
-.idea/
-.vscode/
+logs/
+*.log
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
